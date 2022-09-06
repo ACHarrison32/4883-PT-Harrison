@@ -9,3 +9,8 @@ not.
 
 ### Files
 
+|   #   | File                       | Description                                                |
+| :---: | -------------------------- | ---------------------------------------------------------- |
+|   1   | [main.cpp](./main.cpp)     | solution file.                                             |
+|   2   | [input](./input)           | Test input file from problem statement                     |
+|   3   | [output](./output)          | Test input file from problem statement                     |
