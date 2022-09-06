@@ -11,4 +11,4 @@
 |   7   |             |                         |
 |   8   |             |                         |
 |   9   |             |                         |
-|   10  |[EZ Breezy](./EZ Breezy)|EZ Breezy Programs|
+|   10  |[EZBreezy](./EZ Breezy)|EZ Breezy Programs|
