@@ -11,6 +11,6 @@ not.
 
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
-|   1   | [main.cpp](./main.cpp)     | solution file.                                             |
+|   1   | [main.cpp](./Main.cpp)     | solution file.                                             |
 |   2   | [input](./input.txt)           | Test input file from problem statement                     |
 |   3   | [output](./output.txt)          | Test input file from problem statement                     |
