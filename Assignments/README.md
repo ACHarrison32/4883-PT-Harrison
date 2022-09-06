@@ -2,4 +2,13 @@
 
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|   1   |https://github.com/ACHarrison32/4883-PT-Harrison/tree/main/Assignments/A1|                        |
+|   1   |             |                        |
+|   2   |             |                        |
+|   3   |             |                        |
+|   4   |             |                        |
+|   5   |             |                        |
+|   6   |             |                        |
+|   7   |             |                        |
+|   8   |             |                        |
+|   9   |             |                        |
+|   10  |             |                        |
