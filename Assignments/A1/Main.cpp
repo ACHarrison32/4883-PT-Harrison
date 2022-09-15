@@ -47,8 +47,8 @@ using namespace std;
 int main() 
 {
   //Variable Declarations
-  int num1;
-  int num2;
+  long long int num1;
+  long long int num2;
 
   while (cin >> num1 >> num2)
   {
