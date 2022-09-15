@@ -2,7 +2,7 @@
 Andrew Harrison
 Programming Techniques
 8/25/2022
-10226 Hardwood Species
+10055 HashMat The Brave Warrior
 */
 
 /*=============================================================*/
@@ -43,37 +43,16 @@ Programming Techniques
 /*                            SCOPE                            */
 using namespace std;
 /*=============================================================*/
-/*                     FUNCTION PROTOTYPES                     */
-void openFiles(ifstream &read, ofstream &display);
-/*=============================================================*/
 /*                       MAIN FUNCTION                         */
 int main() 
 {
-  ifstream read;
-  ofstream display;
-
-  openFiles(read, display);
-
   //Variable Declarations
   int num1;
   int num2;
 
-  while (read >> num1 >> num2)
+  while (cin >> num1 >> num2)
   {
-    display << abs(num1 - num2);
-    display << newline;
+    cout << abs(num1 - num2);
+    cout << newline;
   }
-}
-/*=============================================================*/
-/*                  OPEN FILES FUNCTION                        */
-void openFiles(ifstream& infile, ofstream& display)
-{
-    char inFileName[40];
-    char outFileName[40];
-    cout << "Enter Input File Name: ";
-    cin >> inFileName;
-    infile.open(inFileName); //open input file
-    cout << "Enter Output File Name: ";
-    cin >> outFileName;
-    display.open(outFileName);//open output file
 }
