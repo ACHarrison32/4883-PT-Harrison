@@ -43,16 +43,9 @@ Programming Techniques
 /*                            SCOPE                            */
 using namespace std;
 /*=============================================================*/
-/*                     FUNCTION PROTOTYPES                     */
-void openFiles(ifstream &read, ofstream &display);
-/*=============================================================*/
 /*                       MAIN FUNCTION                         */
 int main() 
 {
-  ifstream read;
-  ofstream display;
-
-  openFiles(read, display);
 
   map<string, int> treeCount;
 
@@ -61,36 +54,28 @@ int main()
   double totalNum = 0;
   string tree;
 
-  read >> num;
-  getline(read, tree);
-  read.ignore(256, '\n');
+  cin >> num;
+  cin.ignore();
+  getline(cin, tree);
   while (num > 0) 
   {
-    while (getline(read, tree) && tree != "") 
+    while (getline(cin, tree) && tree != "") 
     {
       treeCount[tree]++;
       totalNum++;
     }
     for (auto it = treeCount.cbegin(); it != treeCount.cend(); it++)
       {
-        display << it->first << " " << fixed << setprecision(4)
+        cout << it->first << " " << fixed << setprecision(4)
                 << it->second / totalNum * 100 << newline;
       }
     treeCount.clear();
+    totalNum = 0;
     num--;
-    display << newline;
-  }
+    if(num>=1.0)
+    {
+      cout << newline;
+    }
+  }  
   return (0);
-}
-/*=============================================================*/
-/*                  OPEN FILES FUNCTION                        */
-void openFiles(ifstream &infile, ofstream &display) {
-  char inFileName[40];
-  char outfileName[40];
-  cout << "Enter Input File Name: ";
-  cin >> inFileName;
-  infile.open(inFileName); // open input file
-  cout << "Enter Output File Name: ";
-  cin >> outfileName;
-  display.open(outfileName); // open output file
 }
