@@ -1,7 +1,7 @@
 ##  Assignments Folder
 
 |   #   | Folder Link | Assignment Description  |
-| :---: |=============|=========================|
+| :---: | ----------- | ----------------------- |
 |   1   |[A1](./A1)   |Hashmat The Brave Warrior|
 |   2   |[A2](./A2)   |Hardwood Species         |
 |   3   |[A3](./A3)   |Traffic Lights           |
