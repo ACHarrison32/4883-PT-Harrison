@@ -2,9 +2,9 @@
 
 |   #   | Folder Link    | Assignment Description  | Completed |
 | :---: | -------------- | ----------------------- | --------- |
-|   1   |[EZ_1](./EZ_1)  |                         |No         |
-|   2   |[EZ_2](./EZ_2)  |                         |No         |
-|   3   |[EZ_3](./EZ_3)  |                         |No         |
+|   1   |[EZ_1](./EZ_1)  |10783 Odd Sum            |Yes        |
+|   2   |[EZ_2](./EZ_2)  |11875 Brick Game         |Yes        |
+|   3   |[EZ_3](./EZ_3)  |11727 Cost Cutting       |Yes        |
 |   4   |[EZ_4](./EZ_4)  |                         |No         |
 |   5   |[EZ_5](./EZ_5)  |                         |No         |
 |   6   |[EZ_6](./EZ_6)  |                         |No         |
