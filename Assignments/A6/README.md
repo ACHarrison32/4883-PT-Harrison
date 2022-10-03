@@ -1,4 +1,4 @@
 |   #   | Folder Link | Assignment Description  | Completed |
 | :---: | ----------- | ----------------------- | --------- |
-|   1   |[A6.1](./A6.1)|                        |           |
+|   1   |[A6.1](./A6.1)|P10004 - Bicoloring     |Yes        |
 |   2   |[A6.2](./A6.2)|                        |           |
