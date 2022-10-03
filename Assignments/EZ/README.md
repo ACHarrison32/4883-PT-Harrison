@@ -9,6 +9,6 @@
 |   5   |[EZ_5](./EZ_5)  |10055 Hashmat The Brave Warrior|Yes  |
 |   6   |[EZ_6](./EZ_6)  |11777 Automate The Grades|Yes        |
 |   7   |[EZ_7](./EZ_7)  |11764 Jumping Mario      |Yes        |
-|   8   |[EZ_8](./EZ_8)  |                         |No         |
+|   8   |[EZ_8](./EZ_8)  |11614 Etruscan Warriors Never Play Chess|Yes        |
 |   9   |[EZ_9](./EZ_9)  |                         |No         |
 |   10  |[EZ_10](./EZ_10)|                         |No         |
