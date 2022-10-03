@@ -11,4 +11,4 @@
 |   7   |[EZ_7](./EZ_7)  |11764 Jumping Mario      |Yes        |
 |   8   |[EZ_8](./EZ_8)  |11614 Etruscan Warriors Never Play Chess|Yes        |
 |   9   |[EZ_9](./EZ_9)  |12250 Language Detection |Yes        |
-|   10  |[EZ_10](./EZ_10)|                         |No         |
+|   10  |[EZ_10](./EZ_10)|11172 Relational Operators|Yes        |
