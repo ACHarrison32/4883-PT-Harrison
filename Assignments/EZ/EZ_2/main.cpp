@@ -1,8 +1,8 @@
 /*
 Andrew Harrison
-P11875 - Brick Game
+P11044 - Searching For Nessy
 Programming Techniques
-9/27/2022
+10/04/2022
 */
 /*=============================================================*/
 /*                     USER-DEFINED FILES                      */
@@ -43,40 +43,20 @@ Programming Techniques
 using namespace std;
 /*=============================================================*/
 /*                       MAIN FUNCTION                         */
-int main() {
+int main() 
+{
   int testCases;
-  int teamMembers;
-  int ages;
+  int rows;
+  int columns;
+  int sonarBeams;
 
   cin >> testCases;
-  while (testCases <= 100) 
+  for(int i = 1; i <= testCases; i++)
   {
-    if (teamMembers <= 1 && teamMembers > 10) 
-    {
-      return 0;
-    } 
-    else 
-    {
-      for (int i = 1; i <= testCases; i++) 
-      {
-        cin >> teamMembers;
-        for (int j = 0; j < teamMembers; j++) 
-        {
-          cin >> ages;
-          if (ages < 11 && ages > 20) 
-          {
-            return 0;
-          } 
-          else 
-          {
-            if (j == teamMembers / 2)
-            {
-              cout << "Case " << i << ": " << ages << '\n';
-            }
-          }
-        }
-      }
-    }
+    cin >> rows >> columns;
+    sonarBeams = (rows / 3) * (columns / 3);
+
+    cout << sonarBeams << newline;
   }
   return 0;
 }
