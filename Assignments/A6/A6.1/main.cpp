@@ -1,6 +1,6 @@
 /*
 Andrew Harrison
-10004 - BicolorArring
+10004 - Bicoloring
 Programming Techniques
 9/28/2022
 */
@@ -44,8 +44,8 @@ using namespace std;
 /*=============================================================*/
 /*                         DECLARATIONS                        */
 vector<int> G[200];
-int colorArr[200];
-int path[200];
+bool colorArr[200];
+bool path[200];
 /*=============================================================*/
 /*                ISBIPARTITE FUNCTION PROTOTYPE               */
 bool isBipartite(int testCases, int src);
@@ -57,34 +57,32 @@ int main()
   int edges;
   int u;
   int v;
-
-  cin >> testCases;
-  while(testCases!=0)
+  while (scanf("%d", &testCases) && testCases != 0) 
   {
-    cin >> edges;
-    for (int i = 0; i < testCases; i++)
+    scanf("%d", &edges);
+    for (int i = 0; i < testCases; i++) 
     {
-      G[i].clear(); // forget previous info
+      G[i].clear();
     }
     for (int i = 0; i < edges; i++) 
     {
-      cin >> u >> v;
+      scanf("%d %d", &u, &v);
       G[u].pb(v);
-      G[v].pb(u); // if graph is undirected
+      G[v].pb(u); 
     }
     isBipartite(testCases, 0);
   }
   return 0;
 }
 /*=============================================================*/
-/*                      ISBIPARTITE FUNCTION                   */
+/*                     ISBIPARTITE FUNCTION                    */
 bool isBipartite(int testCases, int src) 
 {
-  for (int i = 0; i < testCases; i++)
-    {
-      colorArr[i] = false;
-      path[i] = false;
-    }
+  for (int i = 0; i < testCases; i++) 
+  {
+    colorArr[i] = false;
+    path[i] = false;
+  }
   bool bipartite = true;
   queue<int> q;
   q.push(src);
@@ -95,7 +93,7 @@ bool isBipartite(int testCases, int src)
     for (int i = 0; i < G[u].size(); i++) 
     {
       int v = G[u][i];
-      if (path[v] == false) 
+      if (path[v] == false)
       {
         colorArr[v] = 1 - colorArr[u];
         path[v] = true;
@@ -111,7 +109,7 @@ bool isBipartite(int testCases, int src)
   {
     cout << "NOT BICOLORABLE." << newline;
   } 
-  else
+  else 
   {
     cout << "BICOLORABLE." << newline;
   }
