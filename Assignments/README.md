@@ -4,12 +4,14 @@
 | :---: | ----------- | ----------------------- | --------- |
 |   1   |[A1](./A1)   |Hashmat The Brave Warrior|<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/index.png" width="10">|
 |   2   |[A2](./A2)   |Hardwood Species         |<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/index.png" width="10">|
-|   3   |[A3](./A3)   |Traffic Lights           |No         |
+|   3   |[A3](./A3)   |Traffic Lights           |<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/images.png" width="10">|
 |   4   |[A4](./A4)   |Rails                    |<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/index.png" width="10">|
-|   5   |[A5](./A5)   |Rock, Scissors, Paper    |No         |
-|   6   |[A6](./A6)   |Everything Bipartite     |1/2        |
-|   7   |[A7](./A7)   |Everything Dijkstra      |No         |
-|   8   |[A8](./A8)   |                         |           |
-|   9   |[A9](./A9)   |                         |           |
-|   10  |[A10](./A10) |                         |           |
+|   5   |[A5](./A5)   |Rock, Scissors, Paper    |<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/images.png" width="10">|
+|   6   |[A6](./A6)   |Everything Bipartite     |1/2 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/images.png" width="10">|
+|   7   |[A7](./A7)   |Everything Dijkstra      |<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/images.png" width="10">|
+|   8   |[A8](./A8)   |                         |<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/images.png" width="10">|
+|   9   |[A9](./A9)   |                         |<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/images.png" width="10">|
+|   10  |[A10](./A10) |                         |<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/images.png" width="10">|
 |   EZ  |[EZ](./EZ)   |EZ Breezy                |10/10 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/index.png" width="10">|
+
+
