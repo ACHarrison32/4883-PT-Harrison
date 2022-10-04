@@ -13,5 +13,3 @@
 |   9   |[A9](./A9)   |                         |<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/images.png" width="10">|
 |   10  |[A10](./A10) |                         |<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/images.png" width="10">|
 |   EZ  |[EZ](./EZ)   |EZ Breezy                |10/10 - <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/index.png" width="10">|
-
-
