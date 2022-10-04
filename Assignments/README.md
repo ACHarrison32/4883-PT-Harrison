@@ -2,7 +2,7 @@
 
 |   #   | Folder Link | Assignment Description  | Completed |
 | :---: | ----------- | ----------------------- | --------- |
-|   1   |[A1](./A1)   |Hashmat The Brave Warrior|Yes        |
+|   1   |[A1](./A1)   |Hashmat The Brave Warrior|<img src="" width="10">        |
 |   2   |[A2](./A2)   |Hardwood Species         |Yes        |
 |   3   |[A3](./A3)   |Traffic Lights           |No         |
 |   4   |[A4](./A4)   |Rails                    |Yes        |
