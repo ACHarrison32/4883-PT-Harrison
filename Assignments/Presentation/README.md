@@ -13,7 +13,7 @@ but given triangle PQR it is not straight forward to find ABC. Your task is now 
 ### Menelaus's Theorem
 A proposition about triangles in plane geometry. Suppose we have a triangle ABC, and a transversal line that crosses BC, AC, and AB at points D, E, and F respectively, with D, E, and F distinct from A, B, and C. A weak version of the theorem states that
 
-<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Menelaus.PNG" width="300">
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/MenelausTheorem.PNG" width="300">
 where |AB| is taken to be the ordinary length of segment AB: a positive value.
 
 When looking at the problem given we are able to break the triangle up into 3 seperate triangles.
