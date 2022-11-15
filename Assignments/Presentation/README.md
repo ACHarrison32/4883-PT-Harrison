@@ -25,6 +25,9 @@ First we will start with triangle ABP.
 
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP_Cut.png" width="300">
 
-From this we get the equation:
+From this we get:
 
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP_Eq.png" width="300">
+
+BF would be m6 and FA would be m5. So from this we will get:
+$$ { AR \over RP} + {PQ \over QB} = {m5 / m6} $$
