@@ -21,7 +21,7 @@ When looking at the problem given we are able to break the triangle up into 3 se
 
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP.png" width="300"> <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR.png" width="300">  <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ.png" width="300"> 
 
-First we will start with triangle ABP. 
+## First we will do triangle ABP:
 
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP_Cut.png" width="300">
 
@@ -40,7 +40,9 @@ From this we get:
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP_Eq3.png" width="300">
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP_Eq4.png" width="300">
 
-We will then move on to the next triangle BCQ.
+## Second we will do triangle BCQ:
+
+
 
 
 
