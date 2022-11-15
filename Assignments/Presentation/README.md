@@ -24,7 +24,7 @@ When looking at the problem given we are able to break the triangle up into 3 se
 
 ## Triangle ABP
 
-<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP_Cut.png" width="300">
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP_Cut_.png" width="300">
 
 From this we get:
 
