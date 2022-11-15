@@ -15,6 +15,7 @@ A proposition about triangles in plane geometry. Suppose we have a triangle ABC,
 
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Menelaus_Theorem.png" width="300">
 where |AB| is taken to be the ordinary length of segment AB: a positive value.
+Given any line that transverses the three sides of a triangle (one of them will have to be extended), six segments are cut off on the sides. The product of three non-adjacent segments is equal to the product of the other three.
 
 When looking at the problem given we are able to break the triangle up into 3 seperate triangles.
 
