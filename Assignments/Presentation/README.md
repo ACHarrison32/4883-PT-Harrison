@@ -59,5 +59,5 @@ We will then have (m1/m2) = k2.
 From this we get:
 
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Eq3.png" width="300">
-<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Eq4_.png" width="300">
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Eq4.png" width="300">
 
