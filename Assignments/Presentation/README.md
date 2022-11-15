@@ -17,4 +17,5 @@ Then P, Q, R are collinear if and only if  <img src="https://github.com/ACHarris
 where the lengths are directed.
 
 When looking at the problem given we are able to break the triangle up into 3 seperate triangles.
-<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP.png" width="200">
+
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP.png" width="200"> <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR.png" width="200">  <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ.png" width="200"> 
