@@ -11,11 +11,13 @@ So now a new triangle PQR is formed. Given triangle ABC it is very easy to find 
 but given triangle PQR it is not straight forward to find ABC. Your task is now to do that.
 
 ### Menelaus's Theorem
-Let P, Q, R be points on lines BC, CA, AB in a triangle ABC, distinct from its verticies. 
-Then P, Q, R are collinear if and only if  <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Menelaus.PNG" width="200">
+A proposition about triangles in plane geometry. Suppose we have a triangle ABC, and a transversal line that crosses BC, AC, and AB at points D, E, and F respectively, with D, E, and F distinct from A, B, and C. A weak version of the theorem states that
 
-where the lengths are directed.
+{\displaystyle {\frac {|AF|}{|FB|}}\times {\frac {|BD|}{|DC|}}\times {\frac {|CE|}{|EA|}}=1,}{\displaystyle {\frac {|AF|}{|FB|}}\times {\frac {|BD|}{|DC|}}\times {\frac {|CE|}{|EA|}}=1,}
+where |AB| is taken to be the ordinary length of segment AB: a positive value.
 
 When looking at the problem given we are able to break the triangle up into 3 seperate triangles.
 
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP.png" width="300"> <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR.png" width="300">  <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ.png" width="300"> 
+
+First we will start with triangle ABP. 
