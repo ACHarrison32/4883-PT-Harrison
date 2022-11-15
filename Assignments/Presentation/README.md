@@ -44,7 +44,7 @@ From this we get:
 
 ## Triangle BCQ:
 
-<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Cut_.png" width="500">
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Cut.png" width="500">
 
 From this we get:
 
