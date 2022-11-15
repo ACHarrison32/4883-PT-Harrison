@@ -44,7 +44,20 @@ From this we get:
 
 ## Triangle BCQ:
 
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Cut_.png" width="500">
 
+From this we get:
 
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Eq.png" width="300">
 
+CD would be m2 and DB would be m1. So from this we will get:
+
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Eq2.png" width="300">
+
+We will then have (m1/m2) = k2.
+
+From this we get:
+
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Eq3.png" width="300">
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Eq4_.png" width="300">
 
