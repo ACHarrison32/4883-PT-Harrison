@@ -68,15 +68,15 @@ From this we get:
 
 From this we get:
 
-<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Eq.png" width="500">
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Eq.png" width="300">
 
 AE would be m4 and EC would be m3. So from this we will get:
 
-<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Eq2.png" width="500">
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Eq2.png" width="300">
 
 We will then have (m3/m4) = k3.
 
 From this we get:
-<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Eq3.png" width="500">
-<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Eq4.png" width="500">
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Eq3.png" width="300">
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Eq4_.png" width="300">
 
