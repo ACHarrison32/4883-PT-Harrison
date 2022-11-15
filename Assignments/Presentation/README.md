@@ -42,4 +42,12 @@ From this we get:
 
 We will then move on to the next triangle ACR.
 
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Cut.png" width="300">
+
+From this we get:
+
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Eq.png" width="300">
+
+AE would be m4 and EC would be m3. From this we will get:
+
 
