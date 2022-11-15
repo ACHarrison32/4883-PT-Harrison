@@ -1,4 +1,4 @@
-## P12165 - Triangle Hazards
+# P12165 - Triangle Hazards
 ### Andrew Harrison
 
 ### Problem:
