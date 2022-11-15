@@ -31,6 +31,10 @@ From this we get:
 
 BF would be m6 and FA would be m5. So from this we will get:
 
-(AR / RP) + (PQ / QB) = (m5 / m6)
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP_Eq2.png" width="300">
 
+We will then have (m5/m6) = k1.
 
+From this we get:
+
+<img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ABP_Eq3.png" width="300">
