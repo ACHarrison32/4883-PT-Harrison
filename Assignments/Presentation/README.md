@@ -12,6 +12,8 @@ but given triangle PQR it is not straight forward to find ABC. Your task is now 
 
 ### Menelaus's Theorem
 Let P, Q, R be points on lines BC, CA, AB in a triangle ABC, distinct from its verticies. 
-Then P, Q, R are collinear if and only if  <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Menelaus.PNG" width="250">
+Then P, Q, R are collinear if and only if  <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Menelaus.PNG" width="200">
 
 where the lengths are directed.
+
+When looking at the problem given we are able to break the triangle up into 3 seperate triangles.
