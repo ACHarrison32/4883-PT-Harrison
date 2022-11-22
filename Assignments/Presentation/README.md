@@ -141,3 +141,5 @@ int main() {
   return 0;
 }
 ```
+This is not my code: I found the solution at https://wcr1996.com/2016/08/17/uva-12165-triangle-hazard/
+
