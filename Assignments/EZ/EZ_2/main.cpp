@@ -37,7 +37,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -50,13 +49,12 @@ int main()
   int columns;
   int sonarBeams;
 
-  cin >> testCases;
+  scanf("%d", &testCases);
   for(int i = 1; i <= testCases; i++)
   {
-    cin >> rows >> columns;
+    scanf("%d%d", &rows, &columns);
     sonarBeams = (rows / 3) * (columns / 3);
 
-    cout << sonarBeams << newline;
+    printf("%d\n",sonarBeams);
   }
-  return 0;
 }
