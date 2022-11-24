@@ -37,7 +37,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -48,12 +47,14 @@ int main()
   int testCases;
   long long int num;
   long long int ans;
+  long long int squareRoot;
 
-  cin >> testCases;
+  scanf("%d", &testCases);
   for(int i = 1; i <= testCases; i++)
     {
-      cin >> num;
-      ans = (sqrt(1 + 8 * num) - 1) / 2;
-      cout << ans << newline;
+      scanf("%lld", &num);
+      squareRoot = sqrt((num * 8) +1);
+      ans = (squareRoot - 1) / 2;
+      printf("%lld\n", ans);
     }
 }
