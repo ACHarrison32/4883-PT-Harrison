@@ -47,30 +47,29 @@ int main()
   int a;
   int b;
   int c;
-
+  
   while (true) 
   {
-    cin >> a >> b >> c;
-    
+    scanf("%d%d%d", &a, &b, &c);
     if (a == 0 && b == 0 && c == 0)
     {
       return 0;
     }
     else if (pow(a, 2) == (pow(b, 2) + pow(c, 2)))
     {
-      cout << "right" << endl;
+      printf("right\n");
     }
     else if (pow(b, 2) == (pow(a, 2) + pow(c, 2)))
     {
-      cout << "right" << endl;
+      printf("right\n");
     }
     else if (pow(c, 2) == (pow(a, 2) + pow(b, 2)))
     {
-      cout << "right" << endl;
+      printf("right\n");
     }
     else
     {
-      cout << "wrong" << endl;
+      printf("wrong\n");
     }
   }
   return 0;
