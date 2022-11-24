@@ -37,7 +37,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -100,7 +99,7 @@ int main ()
     {
       finalGrade = 'F';
     }
-    cout << "Case " << i << ": " << finalGrade << newline;
+    cout << "Case " << i << ": " << finalGrade << '\n';
     }
   return 0;
 }
