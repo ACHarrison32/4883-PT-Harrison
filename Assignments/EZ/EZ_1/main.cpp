@@ -37,7 +37,6 @@ Ez Breezy - 10783 Odd Sum
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -48,7 +47,7 @@ int main() {
   int rangeA;
   int rangeB;
 
-  cin >> testCases;
+  scanf("%d", &testCases);
   if(testCases > 100)
   {
     return 0;
@@ -58,14 +57,15 @@ int main() {
     for (int i = 0; i < testCases; i++) {
       int sumOdd = 0;
 
-      cin >> rangeA >> rangeB;
+      scanf("%d %d", &rangeA, &rangeB);
 
       for (int j = rangeA; j <= rangeB; j++) {
         if (j % 2 != 0) {
           sumOdd += j;
         }
       }
-      cout << "Case " << i + 1 << ": " << sumOdd << newline;
+
+      printf("Case %d: %d\n", i + 1, sumOdd);
     }
   }
 }
