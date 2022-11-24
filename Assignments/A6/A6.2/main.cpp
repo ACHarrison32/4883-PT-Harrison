@@ -36,7 +36,6 @@ P11396 - Claw Decomposition
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -111,11 +110,11 @@ bool isBipartite(int testCases, int src)
   }
   if (bipartite == false)
   {
-    cout << "NO" << newline;
+    cout << "NO" << '\n';
   } 
   else
   {
-    cout << "YES" << newline;
+    cout << "YES" << '\n';
   }
   return true;
 }
