@@ -38,7 +38,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -109,14 +108,13 @@ int main()
       } 
       if (isPossible == true)
       {
-        cout << "Yes" << newline;
+        cout << "Yes" << '\n';
       } 
       else 
       {
-        cout << "No" << newline;
+        cout << "No" << '\n';
       }
     }
-    cout << newline;
-  }
+    cout << '\n';
   return 0;
 }
