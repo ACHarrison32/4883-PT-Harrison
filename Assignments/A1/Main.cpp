@@ -54,6 +54,6 @@ int main()
   {
     //get absolute value
     absolute = abs(num1 - num2);
-    cout << absolute << '\n';
+    printf("%lld\n", absolute);
   }
 }
