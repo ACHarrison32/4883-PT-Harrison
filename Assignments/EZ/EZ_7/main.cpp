@@ -37,7 +37,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -50,16 +49,16 @@ int main ()
   int current;
   int next;
 
-  cin >> testCases;
+  scanf("%d", &testCases);
   for(int i = 1; i <= testCases; i++)
     {
       int countHighWall = 0;
       int countLowWall = 0;
       
-      cin >> numWalls >> current;
+      scanf("%d%d", &numWalls, &current);
       for(int j = 0; j < numWalls - 1; j++)
         {
-          cin >> next;
+          scanf("%d", &next);
           if(current < next)
           {
             countHighWall++;
@@ -70,7 +69,7 @@ int main ()
           }
           current = next;
         }
-      cout << "Case " << i << ": " << countHighWall << " " << countLowWall << newline;
+      printf("Case %d: %d%s%d\n", i, countHighWall," ", countLowWall);
     }
-    return 0;
+  return 0;
 }
