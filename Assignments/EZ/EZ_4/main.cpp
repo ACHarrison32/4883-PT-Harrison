@@ -44,26 +44,26 @@ using namespace std;
 /*                       MAIN FUNCTION                         */
 int main() 
 {
-  int num1;
-  int num2;
-  int num3;
+  int sideA;
+  int sideB;
+  int sideC;
   
   while (true) 
   {
-    scanf("%d%d%d", &num1, &num2, &num3);
-    if (num1 == 0 && num2 == 0 && num3 == 0)
+    scanf("%d%d%d", &sideA, &sideB, &sideC);
+    if (sideA == 0 && sideB == 0 && sideC == 0)
     {
       return 0;
     }
-    else if (pow(num1, 2) == (pow(num2, 2) + pow(num3, 2)))
+    else if (pow(sideA, 2) == (pow(sideB, 2) + pow(sideC, 2)))
     {
       printf("right\n");
     }
-    else if (pow(num2, 2) == (pow(num1, 2) + pow(num3, 2)))
+    else if (pow(sideB, 2) == (pow(sideA, 2) + pow(sideC, 2)))
     {
       printf("right\n");
     }
-    else if (pow(num3, 2) == (pow(num1, 2) + pow(num2, 2)))
+    else if (pow(sideC, 2) == (pow(sideA, 2) + pow(sideB, 2)))
     {
       printf("right\n");
     }
