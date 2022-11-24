@@ -37,7 +37,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -49,21 +48,21 @@ int main()
   int num1;
   int num2;
 
-  cin >> testCases;
+  scanf("%d", &testCases);
   for(int i = 0; i < testCases; i++)
     {
-      cin >> num1 >> num2;
+      scanf("%d %d", &num1, &num2);
       if(num1 == num2)
       {
-        cout << "=" << newline;
+        printf("%s\n", "=");
       }
       else if(num1 < num2)
       {
-        cout << "<" << newline;
+        printf("%s\n", "<");
       }
       else if(num1 > num2)
       {
-        cout << ">" << newline;
+        printf("%s\n", ">");
       }
     }
   return 0;
