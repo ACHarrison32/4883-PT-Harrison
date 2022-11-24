@@ -38,7 +38,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -50,14 +49,14 @@ int main()
   map<string, int> treeCount;
 
   // Variable Declarations
-  double num;
+  double testCases;
   double totalNum = 0;
   string tree;
 
-  cin >> num;
+  scanf("%lf", &testCases);
   cin.ignore();
   getline(cin, tree);
-  while (num > 0) 
+  while (testCases > 0) 
   {
     while (getline(cin, tree) && tree != "") 
     {
@@ -67,14 +66,14 @@ int main()
     for (auto it = treeCount.cbegin(); it != treeCount.cend(); it++)
       {
         cout << it->first << " " << fixed << setprecision(4)
-                << it->second / totalNum * 100 << newline;
+                << it->second / totalNum * 100 << '\n';
       }
     treeCount.clear();
     totalNum = 0;
-    num--;
-    if(num>=1.0)
+    testCases--;
+    if(testCases>=1.0)
     {
-      cout << newline;
+      cout << '\n';
     }
   }  
   return (0);
