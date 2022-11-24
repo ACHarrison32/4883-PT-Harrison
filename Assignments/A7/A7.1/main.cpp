@@ -40,6 +40,8 @@ using namespace std;
 
 typedef pair<int, int> iPair;
 
+/*=============================================================*/
+/*                         GRAPH CLASS                         */
 // This class represents a directed graph using
 // adjacency list representation
 class Graph {
@@ -116,37 +118,37 @@ int Graph::shortestPath(int S, int T) {
   }
   return dist[T];
 }
-
-int main() {
-
+/*=============================================================*/
+/*                      MAIN FUNCTION                          */
+int main() 
+{
   int testCases;
-  int n;        
-  int m;     
-  int S;      
-  int T;    
-  int w;         
-  int x;         
-  int y;       
+  int n;
+  int m;
+  int S;
+  int T;
+  int w;
+  int x;
+  int y;
 
   scanf("%d", &testCases);
-  for(int i = 0; i < testCases; i++)
+  for (int i = 0; i < testCases; i++) 
+  {
+    scanf("%d %d %d %d", &n, &m, &S, &T);
+    Graph g(n);
+    for (int j = 0; j < m; j++) 
     {
-      scanf("%d %d %d %d", &n, &m, &S, &T);
-      Graph g(n);
-      for(int j = 0; j < m; j++)
-        {
-          scanf("%d %d %d", &x, &y, &w);
-          g.addEdge(x, y, w);
-        }
-      if(g.shortestPath(S, T) == INF)
-      {
-        printf("Case #%d: unreachable\n", i+1);
-      }
-      else
-      {
-      printf("Case #%d: %d\n", i+1, g.shortestPath(S, T));
-        }
-      }
-
+      scanf("%d %d %d", &x, &y, &w);
+      g.addEdge(x, y, w);
+    }
+    if (g.shortestPath(S, T) == INF)
+    {
+      printf("Case #%d: unreachable\n", i + 1);
+    } 
+    else 
+    {
+      printf("Case #%d: %d\n", i + 1, g.shortestPath(S, T));
+    }
+  }
   return 0;
 }
