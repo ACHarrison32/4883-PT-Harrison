@@ -38,7 +38,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -49,10 +48,12 @@ int main()
   //Variable Declarations
   long long int num1;
   long long int num2;
+  long long int absolute;
 
-  while (cin >> num1 >> num2)
+  while(scanf("%lld %lld", &num1, &num2)!= EOF)
   {
-    cout << abs(num1 - num2);
-    cout << newline;
+    //get absolute value
+    absolute = abs(num1 - num2);
+    printf("%lld\n", absolute);
   }
 }
