@@ -37,7 +37,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -53,34 +52,33 @@ int main()
     {
       if(word == "HELLO")
       {
-        cout << "Case " << count << ": " << "ENGLISH" << newline;
+        cout << "Case " << count << ": " << "ENGLISH" << '\n';
       }
       else if(word == "HOLA")
       {
-        cout << "Case " << count << ": " << "SPANISH" << newline;
+        cout << "Case " << count << ": " << "SPANISH" << '\n';
       }
       else if(word == "HALLO")
       {
-        cout << "Case " << count << ": " << "GERMAN" << newline;
+        cout << "Case " << count << ": " << "GERMAN" << '\n';
       }
       else if(word == "BONJOUR")
       {
-        cout << "Case " << count << ": " << "FRENCH" << newline;
+        cout << "Case " << count << ": " << "FRENCH" << '\n';
       }
       else if(word == "CIAO")
       {
-        cout << "Case " << count << ": " << "ITALIAN" << newline;
+        cout << "Case " << count << ": " << "ITALIAN" << '\n';
       }
       else if(word == "ZDRAVSTVUJTE")
       {
-        cout << "Case " << count << ": " << "RUSSIAN" << newline;
+        cout << "Case " << count << ": " << "RUSSIAN" << '\n';
       }
       else
       {
-        cout << "Case " << count << ": " << "UNKNOWN" << newline;
+        cout << "Case " << count << ": " << "UNKNOWN" << '\n';
       }
       count++;
-
       cin >> word;
     }
   return 0;
