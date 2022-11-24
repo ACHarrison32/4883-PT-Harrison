@@ -44,6 +44,8 @@ using namespace std;
 /*                       MAIN FUNCTION                         */
 int main ()
 {
+  
+  int testCases;
   int term1;
   int term2;
   int finalExam;
@@ -54,14 +56,13 @@ int main ()
   int testsTaken;
   int classTestAverage;
   int sumOfAllGrades;
-  int testCases;
   char finalGrade;
 
-  cin >> testCases;
-
+  scanf("%d", &testCases);
   for(int i = 1; i <= testCases; i++)
   {
-    cin >> term1 >> term2 >> finalExam >> attendance >> classTesterm1 >> classTesterm2 >> classTest3;
+    
+scanf("%d%d%d%d%d%d%d",&term1,&term2,&finalExam,&attendance,&classTesterm1,&classTesterm2,&classTest3);
 
     if(classTesterm1 <= classTesterm2 && classTesterm1 <= classTest3)
     {
@@ -99,7 +100,7 @@ int main ()
     {
       finalGrade = 'F';
     }
-    cout << "Case " << i << ": " << finalGrade << '\n';
+    printf("Case %d: %c\n", i, finalGrade);
     }
   return 0;
 }
