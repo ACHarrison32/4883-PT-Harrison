@@ -37,7 +37,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -107,11 +106,11 @@ bool isBipartite(int testCases, int src)
   }
   if (bipartite == false) 
   {
-    cout << "NOT BICOLORABLE." << newline;
+    cout << "NOT BICOLORABLE." << '\n';
   } 
   else 
   {
-    cout << "BICOLORABLE." << newline;
+    cout << "BICOLORABLE." << '\n';
   }
   return false;
 }
