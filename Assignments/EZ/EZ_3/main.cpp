@@ -37,7 +37,6 @@ Programming Techniques
 #define INF 500000000
 #define EPS 1e-7
 #define maxN 10000
-#define newline "\n"
 /*=============================================================*/
 /*                            SCOPE                            */
 using namespace std;
@@ -50,11 +49,10 @@ int main() {
   int testCases;
   int median;
 
-  cin >> testCases;
-
+  scanf("%d", &testCases);
   for (int i = 1; i <= testCases; i++) 
   {
-    cin >> num1 >> num2 >> num3;
+    scanf("%d%d%d", &num1, &num2, &num3);
     
     if ((num1 >= num2 && num1 <= num3) ||
        (num1 >= num3 && num1 <= num2)) 
@@ -71,7 +69,7 @@ int main() {
     {
       median = num3;
     }
-    cout << "Case " << i << ": " << median << newline;
+    printf("Case %d: %d\n", i, median);
   }
   return 0;
 }
