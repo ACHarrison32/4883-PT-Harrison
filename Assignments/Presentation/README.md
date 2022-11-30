@@ -143,3 +143,42 @@ int main() {
 ```
 This is not my code: I found the solution at https://wcr1996.com/2016/08/17/uva-12165-triangle-hazard/
 
+## Handwritten Solution
+
+
+## My Coding Solution
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int testCases;
+  double px, py, qx, qy, rx, ry;
+  double m1, m2, m3, m4, m5, m6;
+
+  cin >> testCases;
+  for (int i = 0; i < testCases; i++) {
+    scanf("%lf %lf %lf %lf %lf %lf", &px, &py, &qx, &qy, &rx, &ry);
+    scanf("%lf %lf %lf %lf %lf %lf", &m1, &m2, &m3, &m4, &m5, &m6);
+
+    double k1 = (m5 / m6);
+    double k2 = (m1 / m2);
+    double k3 = (m3 / m4);
+    double x1 = (k1 * k2 * k3 + k1 * k2 + k1) / (1 - k1 * k2 * k3);
+    double x2 = (k2 * k3 * k1 + k2 * k3 + k2) / (1 - k1 * k2 * k3);
+    double x3 = (k3 * k1 * k2 + k3 * k1 + k3) / (1 - k1 * k2 * k3);
+
+    double pointAx = (rx - px) * (x1) + rx;
+    double pointAy = (ry - py) * (x1) + ry;
+    double pointBx = (px - qx) * (x2) + px;
+    double pointBy = (py - qy) * (x2) + py;
+    double pointCx = (qx - rx) * (x3) + qx;
+    double pointCy = (qy - ry) * (x3) + qy;
+
+    printf("%.8f %.8f %.8f %.8f %.8f %.8f\n", pointAx, pointAy, pointBx,
+           pointBy, pointCx, pointCy);
+  }
+  return 0;
+}
+```
