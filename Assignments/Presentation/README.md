@@ -170,7 +170,7 @@ int main() {
   double px, py, qx, qy, rx, ry;
   double m1, m2, m3, m4, m5, m6;
 
-  cin >> testCases;
+  scanf("%d, &testCases);
   for (int i = 0; i < testCases; i++) {
     scanf("%lf %lf %lf %lf %lf %lf", &px, &py, &qx, &qy, &rx, &ry);
     scanf("%lf %lf %lf %lf %lf %lf", &m1, &m2, &m3, &m4, &m5, &m6);
@@ -195,5 +195,5 @@ int main() {
   return 0;
 }
 ```
-[Input File](./input.txt)  
-[Output File](./output.txt)
+Input File For Code: [Input File](./input.txt)  
+Output File For Code (ran by my code): [Output File](./output.txt)
