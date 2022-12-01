@@ -143,3 +143,51 @@ int main() {
 ```
 Input File For Code: [Input File](./input.txt)  
 Output File For Code (ran by my code): [Output File](./output.txt)
+
+## Another Coding Solution
+```cpp
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#include <cmath>
+
+using namespace std;
+
+struct Point {
+  double x, y;
+  Point() {}
+  Point(double x, double y): x(x), y(y) {}
+} P, Q, R, A, B, C;
+
+typedef Point Vector;
+
+Vector operator + (const Point& a, const Point& b) {
+  return Point(a.x + b.x, a.y + b.y);
+}
+
+Vector operator - (const Point& a, const Point& b) {
+  return Point(a.x - b.x, a.y - b.y);
+}
+
+Vector operator * (const Point& a, const double& k) {
+  return Point(a.x * k, a.y * k);
+}
+
+int main() {
+  int t;
+  scanf("%d", &t);
+  while (t--) {
+    double m1, m2, m3, m4, m5, m6;
+    scanf("%lf%lf%lf%lf%lf%lf", &P.x, &P.y, &Q.x, &Q.y, &R.x, &R.y);
+    scanf("%lf%lf%lf%lf%lf%lf", &m1, &m2, &m3, &m4, &m5, &m6);
+    double k1 = m5 / m6, k2 = m1 / m2, k3 = m3 / m4, k = k1 * k2 * k3;
+    A = (R - P) * ((k + k1 * k2 + k1) / (1 - k)) + R;
+    B = (P - Q) * ((k + k2 * k3 + k2) / (1 - k)) + P;
+    C = (Q - R) * ((k + k3 * k1 + k3) / (1 - k)) + Q;
+    printf("%.8f %.8f %.8f %.8f %.8f %.8f\n", A.x, A.y, B.x, B.y, C.x, C.y);
+  }
+  return 0;
+}
+```
+This is not a coding solution from me. I found this solution online at : https://wcr1996.com/2016/08/17/uva-12165-triangle-hazard/
+This was an example I found that used Menelaus's Theorem to solve this problem. 
