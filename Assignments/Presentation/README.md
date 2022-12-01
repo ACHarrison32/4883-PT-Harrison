@@ -89,60 +89,6 @@ From the previous 3 triangles:
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_BCQ_Eq5.png" width="300">
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Triangle_ACR_Eq5.png" width="300">
 
-## Coding Solution
-
-```cpp
-# include  <cstdio>
-# include  <cstring>
-# include  <algorithm>
-# include  <cmath>
-
-using namespace std;
-
-struct Point 
-{
-  double x, y;   
-  Point() {}   
-  Point(double x, double y) : x(x), y(y) {}
-};
-
-Point P, Q, R, A, B, C;
-
-typedef Point Vector;
-
-Vector operator+(const Point &a, const Point &b) {
-  return Point(a.x + b.x, a.y + b.y);
-}
-
-Vector operator-(const Point &a, const Point &b) {
-  return Point(a.x - b.x, a.y - b.y);
-}
-
-Vector operator*(const Point &a, const double &b) {
-  return Point(a.x * b, a.y * b);
-}
-
-int main() {
-  int t;
-  scanf("%d", &t);
-  while (t--) {
-    double m1, m2, m3, m4, m5, m6;
-    scanf("%lf%lf%lf%lf%lf%lf", &P.x, &P.y, &Q.x, &Q.y, &R.x, &R.y);
-    scanf("%lf%lf%lf%lf%lf%lf", &m1, &m2, &m3, &m4, &m5, &m6);
-    double k1 = m5 / m6;
-    double k2 = m1 / m2;
-    double k3 = m3 / m4;
-    double k = k1 * k2 * k3;
-    A = (R - P) * ((k + k1 * k2 + k1) / (1 - k)) + R;
-    B = (P - Q) * ((k + k2 * k3 + k2) / (1 - k)) + P;
-    C = (Q - R) * ((k + k3 * k1 + k3) / (1 - k)) + Q;
-    printf("%.8f %.8f %.8f %.8f %.8f %.8f\n", A.x, A.y, B.x, B.y, C.x, C.y);
-  }
-  return 0;
-}
-```
-This is not my code: I found the solution at https://wcr1996.com/2016/08/17/uva-12165-triangle-hazard/
-
 ## Handwritten Solution
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Scan1.jpg" width="500">
 <img src="https://github.com/ACHarrison32/4883-PT-Harrison/blob/main/Assignments/Presentation/Scan2.jpg" width="500">
