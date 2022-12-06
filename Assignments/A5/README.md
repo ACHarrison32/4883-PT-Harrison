@@ -1,12 +1,13 @@
-## P514 - Rails
+## P10443 - Rock, Scissors, Paper
 ### Andrew Harrison
 
 ### Description:
-The local tradition is that every train arriving from the direction A continues in the direction B with
-coaches reorganized in some way. Assume that the train arriving from the direction A has N≤1000
-coaches numbered in increasing order 1,2,...,N. The chief for train reorganizations must know whether
-it is possible to marshal coaches continuing in the direction B so that their order will be a1.a2,...,aN.
-Help him and write a program that decides whether it is possible to get the required order of coaches.
+Bart’s sister Lisa has created a new civilization on a two- dimensional grid. At the outset each grid location may
+be occupied by one of three life forms: Rocks, Scissors, or P apers. Each day, differing life forms occupying 
+horizontally or vertically adjacent grid locations wage war. In each war, Rocks always defeat Scissors, Scissors 
+always defeat Papers, and Papers always defeat Rocks. At the end of the day, the victor expands its territory to 
+include the loser’s grid position. The loser vacates the position. Your job is to determine the territory occupied 
+by each lifeform after n days.
 
 ### Files
 
@@ -15,4 +16,4 @@ Help him and write a program that decides whether it is possible to get the requ
 |   1   | [main.cpp](./Main.cpp)     | Main Code File                                             |
 |   2   | [input](./input.txt)       | Input file - from Udebug                                   |
 |   3   | [output](./output.txt)     | Output file - Solution                                     |
-|   4   | [Problem PDF](./.pdf) | Problem from online judge                                  |
+|   4   | [Problem PDF](./10443.pdf) | Problem from online judge                                  |
