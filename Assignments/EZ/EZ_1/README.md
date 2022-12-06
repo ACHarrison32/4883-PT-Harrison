@@ -12,3 +12,4 @@ the summation of all the odd integers in the range [3, 9] is 3 + 5 + 7 + 9 = 24
 |   1   | [main.cpp](./main.cpp)     | Main Code File                                             |
 |   2   | [input](./input.txt)       | Input file - from Udebug                                   |
 |   3   | [output](./output.txt)     | Output file - Solution                                     |
+|   4   | [Problem PDF](./10783.pdf) | Problem from online judge                                  |
