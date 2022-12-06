@@ -3,6 +3,7 @@
 
 ### PDF Problem
 
+[Problem PDF](./12165.pdf) 
 
 ### Problem:
 In the picture below you can see a triangle ABC. Point D, E and F divides the sides BC, CA and AB
