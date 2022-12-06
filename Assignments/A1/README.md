@@ -14,3 +14,4 @@ not.
 |   1   | [main.cpp](./Main.cpp)     | Main Code File                                             |
 |   2   | [input](./input.txt)       | Input file - from Udebug                                   |
 |   3   | [output](./output.txt)     | Output file - Solution                                     |
+|   4   | [Problem PDF](./output.txt)     | Problem from online judge                             |
