@@ -13,4 +13,4 @@ while they are all still green is excluded from the reckoning.
 |   1   | [main.cpp](./Main.cpp)     | Main Code File                                             |
 |   2   | [input](./input.txt)       | Input file                                                 |
 |   3   | [output](./output.txt)     | Output file                                                |
-|   4   | [Problem PDF](./00161.pdf) | Problem from online judge                                  |
+|   4   | [Problem PDF](./161.pdf) | Problem from online judge                                  |
