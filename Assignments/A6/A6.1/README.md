@@ -13,3 +13,4 @@ adjacent nodes have the same color.
 |   1   | [main.cpp](./main.cpp)     | Main Code File                                             |
 |   2   | [input](./input.txt)       | Input file - from Udebug                                   |
 |   3   | [output](./output.txt)     | Output file - Solution                                     |
+|   4   | [Problem PDF](./10004.pdf) | Problem from online judge                                  |
